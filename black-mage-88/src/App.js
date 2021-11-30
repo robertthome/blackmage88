@@ -15,6 +15,7 @@ function App() {
         <Route path="/videos" />
         <Route path="./albums" />
         <Route path="./contact" />
+        <Route path="./quote" />
       </Switch>
       <div className="main-socials">
         <Socials />
