@@ -1,18 +1,18 @@
 .nav {
   display: inline-flex;
-  margin: 1.5em 1em 1.5em 6em;
+  margin: 1.5em 1em 1.5em 5em;
   font-size: 1.5em;
   text-decoration: none;
-  color: white;
+  color: rgba(31, 170, 42, 0.76);
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 @media screen and (max-width: 850px) {
   .nav-container {
-    margin: 25px 1px 1px 130px;
+    margin: 25px 10px 1px 132px;
   }
   .nav {
-    color: red;
     font-size: 1em;
-    margin: 10px 77px 10px -70px;
+    margin: 10px 75px 10px -70px;
   }
 }

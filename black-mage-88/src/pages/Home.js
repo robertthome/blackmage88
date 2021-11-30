@@ -6,7 +6,7 @@ import Virgo from '../assets/Virgo.jpeg'
 const Home = () => {
   return (
     <div className="home-container">
-      <h1 className="title">BLACK MAGE 88</h1>
+      <h1 className="title">Black Mage 88</h1>
       <img className="home-img" src={Virgo} alt="virgo" />
     </div>
   )
