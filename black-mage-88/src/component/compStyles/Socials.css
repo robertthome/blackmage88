@@ -10,6 +10,10 @@
 }
 
 @media screen and (max-width: 850px) {
+  .socials-container {
+    margin-left: 1em;
+  }
+
   .social {
     color: red;
     margin: 15vh 1em 1em 1em;
@@ -19,12 +23,12 @@
 
 @media screen and (max-width: 768px) {
   .social {
-    color: yellow;
+    color: green;
   }
 }
 @media screen and (max-width: 510px) {
   .social {
-    color: purple;
+    color: green;
     font-size: 1.4em;
   }
 }
