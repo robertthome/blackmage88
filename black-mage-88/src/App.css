@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+
+.App {
+  display: grid;
+  justify-content: center;
+}
+
+.main-socials {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 850px) {
+  .App {
+    margin-top: 50px;
+  }
+  body {
+    background-color: black;
+  }
+
+  .App {
+    display: grid;
+    justify-content: center;
+  }
+
+  .main-socials {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 850px) {
+    .App {
+      margin-top: 50px;
+    }
+  }
+}

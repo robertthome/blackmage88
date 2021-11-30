@@ -1,0 +1,30 @@
+.socials-container {
+  color: green;
+  margin-right: 1em;
+}
+
+.social {
+  display: inline-flex;
+  margin: 0.9vh 1em 1em 1em;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 850px) {
+  .social {
+    color: red;
+    margin: 15vh 1em 1em 1em;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .social {
+    color: yellow;
+  }
+}
+@media screen and (max-width: 510px) {
+  .social {
+    color: purple;
+    font-size: 1.4em;
+  }
+}
