@@ -1,0 +1,8 @@
+.vidpage-container {
+  display: grid;
+  justify-content: center;
+}
+
+.react-player {
+  margin-top: 2em;
+}

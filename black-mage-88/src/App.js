@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Nav from './component/Nav'
 import Socials from './component/Socials'
 import Title from './component/Title'
+import VideoPage from './pages/pagesStlyes/VideosPage'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Title />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/videos" />
+        <Route path="/videos" component={VideoPage} />
         <Route path="./albums" />
         <Route path="./contact" />
       </Switch>
