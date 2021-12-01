@@ -10,6 +10,7 @@ body {
 .main-socials {
   display: flex;
   justify-content: center;
+  margin-top: 1em;
 }
 
 @media screen and (max-width: 850px) {

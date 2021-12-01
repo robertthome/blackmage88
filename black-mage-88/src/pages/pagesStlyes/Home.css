@@ -6,29 +6,24 @@
 
 .title {
   text-align: center;
-  font-size: 150px;
-  margin-top: -0.1em;
+  font-size: 115px;
+  margin-top: 0.5em;
   font-family: 'Libre Barcode 39 Text', cursive;
   color: rgba(240, 255, 255, 0.226);
 }
 
 .home-img {
-  width: 40em;
-  height: 40em;
+  width: 45em;
+  height: 45em;
 }
 
-@media screen and (max-width: 850px) {
-  .home-container {
-    margin-top: 1em;
-  }
-
+@media screen and (max-width: 900px) {
   .title {
     font-size: 50px;
-    margin-top: 20px;
   }
   .home-img {
+    margin-top: 1em;
     width: 20em;
     height: 20em;
-    margin: 10px 1px 1px 1px;
   }
 }

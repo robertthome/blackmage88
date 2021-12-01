@@ -5,17 +5,18 @@ import Home from './pages/Home'
 
 import Nav from './component/Nav'
 import Socials from './component/Socials'
+import Title from './component/Title'
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      <Title />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/videos" />
         <Route path="./albums" />
         <Route path="./contact" />
-        <Route path="./quote" />
       </Switch>
       <div className="main-socials">
         <Socials />

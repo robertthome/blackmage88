@@ -1,18 +1,23 @@
+.nav-container {
+  margin-top: 1em;
+  margin-left: 6em;
+}
+
 .nav {
   display: inline-flex;
-  margin: 1.5em 1em 1.5em 5em;
+  justify-content: center;
+  margin-right: 4em;
   font-size: 1.5em;
   text-decoration: none;
   color: rgba(31, 170, 42, 0.76);
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'El Messiri', sans-serif;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .nav-container {
-    margin: 25px 50px 1px 90px;
+    margin-left: 3em;
   }
   .nav {
-    font-size: 1em;
-    margin: 10px 65px 10px -55px;
+    font-size: 0.78em;
   }
 }
