@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { FiHeart } from 'react-icons/fi'
+
 import './compStyles/Nav.css'
 
 const Nav = () => {
