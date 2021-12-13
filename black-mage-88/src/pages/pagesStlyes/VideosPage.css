@@ -1,6 +1,7 @@
 .vidpage-container {
   position: relative;
   padding-top: 56.25%;
+  margin-top: 50px;
 }
 
 .react-player {
