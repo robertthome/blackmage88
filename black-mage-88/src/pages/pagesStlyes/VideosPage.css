@@ -1,8 +1,10 @@
 .vidpage-container {
-  display: grid;
-  justify-content: center;
+  position: relative;
+  padding-top: 56.25%;
 }
 
 .react-player {
-  margin-top: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
